@@ -1,3 +1,3 @@
 # Message-Box
 Message Box with Jquery
-https://Alice-63.github.io/Message-Box/
+https://alice-63.github.io/Message-Box
