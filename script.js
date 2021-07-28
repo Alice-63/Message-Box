@@ -1,6 +1,5 @@
 
-
-$(document).ready(function(){
+setTimeout(function(){$(document).ready(function(){
     $("#message").click(function(){
         $("#message").animate({
             left: "25vw",
@@ -36,6 +35,9 @@ $("#iconMinus").click(function(){
         $("#icon").hide()
 
     })
-})
+})},3000)
+
+
+
 
    
