@@ -3,8 +3,7 @@ body{
     height: 100vh;
     margin: 0;  
     font-family: "Segoe UI";
- 
-
+  
 }
 
 
@@ -15,11 +14,12 @@ body{
     background-color: #21DAAD;
     color: white;
     font-size:25px ;
-    padding-top: 25px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
     position:absolute;
     left: 68vw;
     top:73vh;
     overflow:hidden;
+    box-shadow: -1px 1px 14px 0px #000000;
 }
