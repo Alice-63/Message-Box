@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+body{
+    height: 100vh;
+    margin: 0;  
+    font-family: "Segoe UI";
+ 
+
+}
+
+
+#message
+{
+    width: 400px;
+    height: 130px;
+    background-color: #21DAAD;
+    color: white;
+    font-size:25px ;
+    padding-top: 25px;
+    text-align: center;
+    cursor: pointer;
+    position:absolute;
+    left: 68vw;
+    top:73vh;
+    overflow:hidden;
+}
