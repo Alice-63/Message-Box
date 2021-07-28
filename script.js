@@ -19,15 +19,22 @@ $(document).ready(function(){
         $("#message").slideUp(1000)
     })
     
-    $("#iconMinus").click(function(){
-        $("#message").animate({
-            left: "68vw",
-            top:"73vh",
-            width:"400px",
-            height:"130px",
-            fontSize:"25px",
-           
-        },2000)
+    
+})
+$("#iconMinus").click(function(){
+    $("#message").animate({
+        left: "68vw",
+        top:"73vh",
+        width:"400px",
+        height:"130px",
+        fontSize:"20px",
+        padding:"25px"
+       
+    },1000,function(){
+        $("#message").stop(true,true)
+        $("#iconMinus").hide()
+        $("#icon").hide()
+
     })
 })
 
